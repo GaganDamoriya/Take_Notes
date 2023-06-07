@@ -1,0 +1,211 @@
+body {
+  background-color: #374954;
+  height: 100%;
+}
+header {
+  background-color: #e9d758;
+  margin: 0%;
+  padding: 0.5px;
+  padding-left: 1em;
+  box-shadow: 0 0 10px 0 rgb(46, 44, 44);
+}
+.view-page h2 {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  text-decoration: underline;
+}
+header h1 {
+  color: aliceblue;
+  font-family: "Courier New", Courier, monospace;
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5em;
+}
+.view-page {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+.dashboard {
+  background: #e5e9ec;
+  border-radius: 7px;
+  margin: 16px;
+  width: 75%;
+  height: 100%;
+}
+.Notes {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+  float: left;
+}
+.Notes h1 {
+  font-size: 1.1em;
+  margin-bottom: 2px;
+}
+
+.Notes p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.Notes button {
+  position: relative;
+  float: right;
+  margin-right: 10px;
+  color: #f5ba13;
+  border: none;
+  width: 50 px;
+  height: 36px;
+  cursor: pointer;
+  outline: none;
+}
+
+.sidebar {
+  width: 25%;
+  background: #5b7b99;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #334364;
+
+  margin: 16px;
+}
+.sidebar-notes {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #e71111;
+  padding: 10px;
+  width: auto;
+  margin: 10px;
+  float: left;
+  height: 23px;
+  display: flex;
+
+  align-items: center;
+}
+.sidebar h2 {
+  color: white;
+}
+form {
+  position: relative;
+  width: 480px;
+  margin: 30px auto 20px auto;
+  background: #fff;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+form input,
+form textarea {
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+form button {
+  position: absolute;
+  right: 18px;
+  bottom: -18px;
+  background: #f5ba13;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
+.addDeadline {
+  position: relative;
+  width: 150px;
+  height: 50px;
+  margin-left: 30%;
+  margin-bottom: 30px;
+  cursor: pointer;
+  background: #e9d758;
+  color: white;
+  font-size: 1em;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  display: flex;
+  align-items: center;
+}
+
+.popup-inner {
+  position: relative;
+  left: 23%;
+  padding: 30px;
+  width: 50%;
+  height: 300px;
+
+  background-color: white;
+}
+
+.popup-inner input {
+  width: 100%;
+  border: none;
+  padding-left: 20px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+
+.pop-submit-button {
+  position: relative;
+  left: 350px;
+  top: 120px;
+}
+.close_btn {
+  position: relative;
+  top: -120px;
+  left: 730px;
+  width: 30px;
+  height: 30px;
+  font-size: 1.5em;
+  border: none;
+  cursor: pointer;
+  color: #e71111;
+  background-color: white;
+}
+.pop-submit-button {
+  position: relative;
+  left: 550px;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  background: #e9d758;
+  color: white;
+  font-size: 1em;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.sidebar-notes button {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
